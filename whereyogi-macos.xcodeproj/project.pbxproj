@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429150E923B4AFFB002B702A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429150E823B4AFFB002B702A /* AppDelegate.swift */; };
+		429150EB23B4AFFB002B702A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429150EA23B4AFFB002B702A /* ViewController.swift */; };
+		429150ED23B4AFFD002B702A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429150EC23B4AFFD002B702A /* Assets.xcassets */; };
+		429150F023B4AFFD002B702A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429150EE23B4AFFD002B702A /* Main.storyboard */; };
+		429150FC23B4AFFE002B702A /* whereyogi_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429150FB23B4AFFE002B702A /* whereyogi_macosTests.swift */; };
+		4291510723B4AFFE002B702A /* whereyogi_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4291510623B4AFFE002B702A /* whereyogi_macosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		429150F823B4AFFE002B702A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429150DD23B4AFFB002B702A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429150E423B4AFFB002B702A;
+			remoteInfo = "whereyogi-macos";
+		};
+		4291510323B4AFFE002B702A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429150DD23B4AFFB002B702A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429150E423B4AFFB002B702A;
+			remoteInfo = "whereyogi-macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		429150E523B4AFFB002B702A /* whereyogi-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whereyogi-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		429150E823B4AFFB002B702A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		429150EA23B4AFFB002B702A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		429150EC23B4AFFD002B702A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		429150EF23B4AFFD002B702A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		429150F123B4AFFD002B702A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429150F223B4AFFD002B702A /* whereyogi_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = whereyogi_macos.entitlements; sourceTree = "<group>"; };
+		429150F723B4AFFE002B702A /* whereyogi-macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whereyogi-macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		429150FB23B4AFFE002B702A /* whereyogi_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whereyogi_macosTests.swift; sourceTree = "<group>"; };
+		429150FD23B4AFFE002B702A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4291510223B4AFFE002B702A /* whereyogi-macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whereyogi-macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4291510623B4AFFE002B702A /* whereyogi_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whereyogi_macosUITests.swift; sourceTree = "<group>"; };
+		4291510823B4AFFE002B702A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		429150E223B4AFFB002B702A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429150F423B4AFFE002B702A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429150FF23B4AFFE002B702A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429150DC23B4AFFB002B702A = {
+			isa = PBXGroup;
+			children = (
+				429150E723B4AFFB002B702A /* whereyogi-macos */,
+				429150FA23B4AFFE002B702A /* whereyogi-macosTests */,
+				4291510523B4AFFE002B702A /* whereyogi-macosUITests */,
+				429150E623B4AFFB002B702A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		429150E623B4AFFB002B702A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429150E523B4AFFB002B702A /* whereyogi-macos.app */,
+				429150F723B4AFFE002B702A /* whereyogi-macosTests.xctest */,
+				4291510223B4AFFE002B702A /* whereyogi-macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429150E723B4AFFB002B702A /* whereyogi-macos */ = {
+			isa = PBXGroup;
+			children = (
+				429150E823B4AFFB002B702A /* AppDelegate.swift */,
+				429150EA23B4AFFB002B702A /* ViewController.swift */,
+				429150EC23B4AFFD002B702A /* Assets.xcassets */,
+				429150EE23B4AFFD002B702A /* Main.storyboard */,
+				429150F123B4AFFD002B702A /* Info.plist */,
+				429150F223B4AFFD002B702A /* whereyogi_macos.entitlements */,
+			);
+			path = "whereyogi-macos";
+			sourceTree = "<group>";
+		};
+		429150FA23B4AFFE002B702A /* whereyogi-macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				429150FB23B4AFFE002B702A /* whereyogi_macosTests.swift */,
+				429150FD23B4AFFE002B702A /* Info.plist */,
+			);
+			path = "whereyogi-macosTests";
+			sourceTree = "<group>";
+		};
+		4291510523B4AFFE002B702A /* whereyogi-macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4291510623B4AFFE002B702A /* whereyogi_macosUITests.swift */,
+				4291510823B4AFFE002B702A /* Info.plist */,
+			);
+			path = "whereyogi-macosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		429150E423B4AFFB002B702A /* whereyogi-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4291510B23B4AFFE002B702A /* Build configuration list for PBXNativeTarget "whereyogi-macos" */;
+			buildPhases = (
+				429150E123B4AFFB002B702A /* Sources */,
+				429150E223B4AFFB002B702A /* Frameworks */,
+				429150E323B4AFFB002B702A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "whereyogi-macos";
+			productName = "whereyogi-macos";
+			productReference = 429150E523B4AFFB002B702A /* whereyogi-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		429150F623B4AFFE002B702A /* whereyogi-macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4291510E23B4AFFE002B702A /* Build configuration list for PBXNativeTarget "whereyogi-macosTests" */;
+			buildPhases = (
+				429150F323B4AFFE002B702A /* Sources */,
+				429150F423B4AFFE002B702A /* Frameworks */,
+				429150F523B4AFFE002B702A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429150F923B4AFFE002B702A /* PBXTargetDependency */,
+			);
+			name = "whereyogi-macosTests";
+			productName = "whereyogi-macosTests";
+			productReference = 429150F723B4AFFE002B702A /* whereyogi-macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4291510123B4AFFE002B702A /* whereyogi-macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4291511123B4AFFE002B702A /* Build configuration list for PBXNativeTarget "whereyogi-macosUITests" */;
+			buildPhases = (
+				429150FE23B4AFFE002B702A /* Sources */,
+				429150FF23B4AFFE002B702A /* Frameworks */,
+				4291510023B4AFFE002B702A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4291510423B4AFFE002B702A /* PBXTargetDependency */,
+			);
+			name = "whereyogi-macosUITests";
+			productName = "whereyogi-macosUITests";
+			productReference = 4291510223B4AFFE002B702A /* whereyogi-macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		429150DD23B4AFFB002B702A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jeff Liu";
+				TargetAttributes = {
+					429150E423B4AFFB002B702A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					429150F623B4AFFE002B702A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 429150E423B4AFFB002B702A;
+					};
+					4291510123B4AFFE002B702A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 429150E423B4AFFB002B702A;
+					};
+				};
+			};
+			buildConfigurationList = 429150E023B4AFFB002B702A /* Build configuration list for PBXProject "whereyogi-macos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 429150DC23B4AFFB002B702A;
+			productRefGroup = 429150E623B4AFFB002B702A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429150E423B4AFFB002B702A /* whereyogi-macos */,
+				429150F623B4AFFE002B702A /* whereyogi-macosTests */,
+				4291510123B4AFFE002B702A /* whereyogi-macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		429150E323B4AFFB002B702A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429150ED23B4AFFD002B702A /* Assets.xcassets in Resources */,
+				429150F023B4AFFD002B702A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429150F523B4AFFE002B702A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4291510023B4AFFE002B702A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		429150E123B4AFFB002B702A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429150EB23B4AFFB002B702A /* ViewController.swift in Sources */,
+				429150E923B4AFFB002B702A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429150F323B4AFFE002B702A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429150FC23B4AFFE002B702A /* whereyogi_macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429150FE23B4AFFE002B702A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4291510723B4AFFE002B702A /* whereyogi_macosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		429150F923B4AFFE002B702A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429150E423B4AFFB002B702A /* whereyogi-macos */;
+			targetProxy = 429150F823B4AFFE002B702A /* PBXContainerItemProxy */;
+		};
+		4291510423B4AFFE002B702A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429150E423B4AFFB002B702A /* whereyogi-macos */;
+			targetProxy = 4291510323B4AFFE002B702A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		429150EE23B4AFFD002B702A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429150EF23B4AFFD002B702A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4291510923B4AFFE002B702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4291510A23B4AFFE002B702A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4291510C23B4AFFE002B702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "whereyogi-macos/whereyogi_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R63EM248DP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "whereyogi-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whereyogi.whereyogi-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4291510D23B4AFFE002B702A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "whereyogi-macos/whereyogi_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R63EM248DP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "whereyogi-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whereyogi.whereyogi-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4291510F23B4AFFE002B702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R63EM248DP;
+				INFOPLIST_FILE = "whereyogi-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whereyogi.whereyogi-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whereyogi-macos.app/Contents/MacOS/whereyogi-macos";
+			};
+			name = Debug;
+		};
+		4291511023B4AFFE002B702A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R63EM248DP;
+				INFOPLIST_FILE = "whereyogi-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whereyogi.whereyogi-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whereyogi-macos.app/Contents/MacOS/whereyogi-macos";
+			};
+			name = Release;
+		};
+		4291511223B4AFFE002B702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R63EM248DP;
+				INFOPLIST_FILE = "whereyogi-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whereyogi.whereyogi-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "whereyogi-macos";
+			};
+			name = Debug;
+		};
+		4291511323B4AFFE002B702A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R63EM248DP;
+				INFOPLIST_FILE = "whereyogi-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whereyogi.whereyogi-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "whereyogi-macos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		429150E023B4AFFB002B702A /* Build configuration list for PBXProject "whereyogi-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4291510923B4AFFE002B702A /* Debug */,
+				4291510A23B4AFFE002B702A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4291510B23B4AFFE002B702A /* Build configuration list for PBXNativeTarget "whereyogi-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4291510C23B4AFFE002B702A /* Debug */,
+				4291510D23B4AFFE002B702A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4291510E23B4AFFE002B702A /* Build configuration list for PBXNativeTarget "whereyogi-macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4291510F23B4AFFE002B702A /* Debug */,
+				4291511023B4AFFE002B702A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4291511123B4AFFE002B702A /* Build configuration list for PBXNativeTarget "whereyogi-macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4291511223B4AFFE002B702A /* Debug */,
+				4291511323B4AFFE002B702A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 429150DD23B4AFFB002B702A /* Project object */;
+}

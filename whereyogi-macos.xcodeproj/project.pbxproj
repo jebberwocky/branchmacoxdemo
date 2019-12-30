@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420E86BD23B4C5D300ED384D /* Branch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420E86BC23B4C5D300ED384D /* Branch.framework */; };
+		420E86BE23B4C5D300ED384D /* Branch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 420E86BC23B4C5D300ED384D /* Branch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		429150E923B4AFFB002B702A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429150E823B4AFFB002B702A /* AppDelegate.swift */; };
 		429150EB23B4AFFB002B702A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429150EA23B4AFFB002B702A /* ViewController.swift */; };
 		429150ED23B4AFFD002B702A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429150EC23B4AFFD002B702A /* Assets.xcassets */; };
@@ -32,7 +34,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		420E86BF23B4C5D300ED384D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				420E86BE23B4C5D300ED384D /* Branch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		420E86BC23B4C5D300ED384D /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Branch.framework; sourceTree = "<group>"; };
 		429150E523B4AFFB002B702A /* whereyogi-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whereyogi-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429150E823B4AFFB002B702A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		429150EA23B4AFFB002B702A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420E86BD23B4C5D300ED384D /* Branch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +98,7 @@
 				429150FA23B4AFFE002B702A /* whereyogi-macosTests */,
 				4291510523B4AFFE002B702A /* whereyogi-macosUITests */,
 				429150E623B4AFFB002B702A /* Products */,
+				4291511423B4BCA1002B702A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +143,14 @@
 			path = "whereyogi-macosUITests";
 			sourceTree = "<group>";
 		};
+		4291511423B4BCA1002B702A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				420E86BC23B4C5D300ED384D /* Branch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +161,7 @@
 				429150E123B4AFFB002B702A /* Sources */,
 				429150E223B4AFFB002B702A /* Frameworks */,
 				429150E323B4AFFB002B702A /* Resources */,
+				420E86BF23B4C5D300ED384D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -424,6 +452,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R63EM248DP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT/**",
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "whereyogi-macos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +480,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R63EM248DP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT/**",
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "whereyogi-macos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

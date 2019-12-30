@@ -30,6 +30,17 @@
 	<string>NSApplication</string>
 	<key>NSSupportsAutomaticTermination</key>
 	<true/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>whereyogi-mac</string>
+			</array>
+		</dict>
+	</array>
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
 </dict>
